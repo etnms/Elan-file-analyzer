@@ -11,7 +11,7 @@ You can simply go in the "dist" folder and use the executable file there.
 
 ## How it works
 Elan files are simply XML files. Based on this information, the program was meant to look for specific values that are created in the file in order to return a summary of them. Python works fairly well with this type of process and the code remains simple and readable.
-The GUI is based of PyQT.
+The GUI is based on PyQT.
 
 ## Limits
 - This program is meant to analyze multiple files to look for the frequency of values. If you are not looking for frequencies of apparition of values then this might not be the right tool for you.
