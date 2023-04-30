@@ -2,7 +2,10 @@ import csv
 
 
 class WriterCsv():
-
+    """
+    A class for doing the CSV writing.
+    """
+    
     def create_csv(name):
         with open(name, 'w', newline='') as file:
             csv.writer(file)

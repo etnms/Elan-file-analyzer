@@ -7,7 +7,25 @@ from write_csv import WriterCsv as wcsv
 
 class WriteStats:
 
+    """
+    A class for writing statistics to a CSV file.
+    """
     def write_stats(tier_search_value, adding_time_values, chosen_filename, foldername, check_specific_value, specific_value, all_words, subfolders):
+        
+        """
+        Write statistics to a CSV file.
+
+        Parameters:
+        - tier_search_value (str): The ID of the tier to search for.
+        - adding_time_values (bool): Whether to include time values in the CSV file.
+        - chosen_filename (str): The name of the output CSV file.
+        - foldername (str): The name of the folder containing the input files.
+        - check_specific_value (bool): Whether to search for a specific value in the tier.
+        - specific_value (str): The value to search for in the tier.
+        - all_words (bool): Whether to count each word separately.
+        - subfolders (bool): Whether to search subfolders for input files.
+        """
+             
         # Base variables
         dict_result = {}
         dict_stats = {}
